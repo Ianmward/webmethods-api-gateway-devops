@@ -1,0 +1,31 @@
+{
+  "applicationID" : "3a3ddef1-c279-4bba-b900-2cab75851267",
+  "name" : "Nodetours",
+  "owner" : "Administrator",
+  "identifiers" : [ {
+    "id" : "be4696dc-0d33-4fd5-a2c8-bd86b5a1a8ce",
+    "key" : "jwtClaims",
+    "swaggerName" : "",
+    "swaggerValue" : [ ],
+    "namedValues" : [ {
+      "name" : "Admin",
+      "values" : [ "{\"User\":\"Administrator\"}" ]
+    } ]
+  } ],
+  "contactEmails" : [ ],
+  "accessTokens" : {
+    "apiAccessKey" : {
+      "apiAccessKey" : "f8b5d52ba161e2ef5b71178cff63e1919df9221c96366e0d465df26b1d8ace05"
+    }
+  },
+  "creationDate" : "2020-07-19 02:06:50 GMT",
+  "lastModified" : "2020-07-23 02:51:45 GMT",
+  "lastUpdated" : 1595472705183,
+  "siteURLs" : [ ],
+  "jsOrigins" : [ ],
+  "version" : "1.0",
+  "properties" : { },
+  "isSuspended" : false,
+  "authStrategyIds" : [ ],
+  "subscription" : false
+}
