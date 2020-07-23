@@ -37,7 +37,7 @@ stages:
         - script: 'sudo npm install -g newman'
           workingDirectory: '$(System.DefaultWorkingDirectory)'
           displayName: 'Prerequisite'
-        - script: 'newman run test-suites/APITest.json  --reporters cli,junit --reporter-junit-export Results/junitReport.xml -e qa_environment.json'
+        - script: 'newman run test-suites/APITest.json  --reporters cli,junit --reporter-junit-export Results/junitReport.xml -e tests/environment/qa_environment.json'
           workingDirectory: '$(System.DefaultWorkingDirectory)/tests'
           displayName: 'Run tests on the QA Machine'
         - task: PublishBuildArtifacts@1
