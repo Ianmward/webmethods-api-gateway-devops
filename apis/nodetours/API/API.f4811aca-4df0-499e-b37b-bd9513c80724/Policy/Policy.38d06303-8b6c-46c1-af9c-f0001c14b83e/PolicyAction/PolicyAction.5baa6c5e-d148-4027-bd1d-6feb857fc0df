@@ -1,0 +1,19 @@
+{
+  "id" : "5baa6c5e-d148-4027-bd1d-6feb857fc0df",
+  "names" : [ {
+    "value" : "Data Masking",
+    "locale" : "en"
+  } ],
+  "templateKey" : "responseDataMasking",
+  "parameters" : [ {
+    "templateKey" : "consumerIdsOptional",
+    "values" : [ "3a3ddef1-c279-4bba-b900-2cab75851267" ]
+  }, {
+    "templateKey" : "sameForTransactionalLogging",
+    "values" : [ "true" ]
+  }, {
+    "templateKey" : "applyForPayload",
+    "values" : [ "true" ]
+  } ],
+  "active" : false
+}
