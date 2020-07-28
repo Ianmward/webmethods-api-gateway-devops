@@ -7,7 +7,7 @@ pool:
 parameters:
 - name: apiProject
   type: string
-  default: 'nodetours'
+  default: 'petstore'
 
 stages:
  - stage: "BuildAndDeploy"
