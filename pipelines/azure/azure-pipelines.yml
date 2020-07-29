@@ -7,7 +7,7 @@ pool:
 parameters:
 - name: apiProject
   type: string
-  default: 'postman'
+  default: 'nodetours'
 
 stages:
  - stage: "BuildAndDeploy"
