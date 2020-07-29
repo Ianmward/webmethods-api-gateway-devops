@@ -1,0 +1,52 @@
+{
+  "id" : "65fa6beb-7471-41c7-bf5b-47211cb23813",
+  "names" : [ {
+    "value" : "Default Policy for API nodetours",
+    "locale" : "English"
+  } ],
+  "descriptions" : [ {
+    "value" : "",
+    "locale" : "English"
+  } ],
+  "scope" : {
+    "scopeConditions" : [ ]
+  },
+  "policyEnforcements" : [ {
+    "enforcements" : [ {
+      "enforcementObjectId" : "b3baf123-9588-4aa7-b1b6-f2c73c0e8406",
+      "order" : "0"
+    } ],
+    "stageKey" : "routing"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "04ea4bf8-1371-4991-995c-865218f12291",
+      "order" : "0"
+    } ],
+    "stageKey" : "LMT"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "4d038006-059e-4e00-9a73-838ad4e14f79",
+      "order" : "0"
+    } ],
+    "stageKey" : "IAM"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "970bc69c-68e1-4326-b071-4163c28f3ed9",
+      "order" : "0"
+    } ],
+    "stageKey" : "transport"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "5c8054af-ed6e-4ad3-997e-84f3d75e5807",
+      "order" : "0"
+    }, {
+      "enforcementObjectId" : "2d2c8593-8e74-43cb-9a3b-65b8017df4ff",
+      "order" : "1"
+    } ],
+    "stageKey" : "responseProcessing"
+  } ],
+  "policyScope" : "SERVICE",
+  "systemPolicy" : false,
+  "global" : false,
+  "active" : false
+}
