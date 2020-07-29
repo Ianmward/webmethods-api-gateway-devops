@@ -1,0 +1,14 @@
+{
+  "id" : "a4fd2a8a-4c4b-4001-bcd5-7778eb9242b7",
+  "assetId" : "00054aa7-e0a3-4404-b92a-19eaf52e4605",
+  "gatewayEntityType" : [ "gatewayentitytype", "APIS" ],
+  "teamAccessControlList" : [ {
+    "id" : "Administrators",
+    "privilege" : [ 0, 1, 2 ],
+    "accessControlSource" : "SYSTEM"
+  }, {
+    "id" : "Default",
+    "privilege" : [ 0, 1, 2 ],
+    "accessControlSource" : "SYSTEM"
+  } ]
+}
