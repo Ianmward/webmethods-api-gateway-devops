@@ -1,0 +1,8 @@
+{
+  "id" : "48e432aa-fdca-4279-b983-6bb7bb0e1ee9",
+  "type" : "JWT_RSA",
+  "authServerAlias" : "local",
+  "name" : "Nodetours",
+  "description" : "",
+  "audience" : "nodetours"
+}
