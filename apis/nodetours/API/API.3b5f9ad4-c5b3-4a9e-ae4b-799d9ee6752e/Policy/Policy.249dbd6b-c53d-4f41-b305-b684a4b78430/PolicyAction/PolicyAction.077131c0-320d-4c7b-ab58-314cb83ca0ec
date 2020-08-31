@@ -1,0 +1,19 @@
+{
+  "id" : "077131c0-320d-4c7b-ab58-314cb83ca0ec",
+  "names" : [ {
+    "value" : "Data Masking",
+    "locale" : "en"
+  } ],
+  "templateKey" : "responseDataMasking",
+  "parameters" : [ {
+    "templateKey" : "consumerIdsOptional",
+    "values" : [ "3a3ddef1-c279-4bba-b900-2cab75851267" ]
+  }, {
+    "templateKey" : "sameForTransactionalLogging",
+    "values" : [ "true" ]
+  }, {
+    "templateKey" : "applyForPayload",
+    "values" : [ "true" ]
+  } ],
+  "active" : false
+}
