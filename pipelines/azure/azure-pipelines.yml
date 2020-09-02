@@ -7,7 +7,7 @@ pool:
 parameters:
 - name: apiProject
   type: string
-  default: 'petstore'
+  default: 'staff-service'
 
 stages:
  - stage: "BuildAndDeploy"
