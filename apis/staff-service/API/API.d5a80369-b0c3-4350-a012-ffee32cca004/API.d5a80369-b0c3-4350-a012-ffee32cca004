@@ -18,7 +18,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -32,7 +35,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -46,7 +52,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -60,7 +69,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -74,7 +86,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -88,7 +103,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -102,7 +120,10 @@
               "description" : "",
               "content" : {
                 "application/json" : {
-                  "schema" : { },
+                  "schema" : {
+                    "type" : "gateway",
+                    "schema" : "{}"
+                  },
                   "examples" : { },
                   "example" : "{\n  \"name\":\"Duke T. Dog\",\n  \"photo\":\"https://rac-istio-course-images.s3.amazonaws.com/2.jpg\"\n}"
                 }
@@ -222,7 +243,7 @@
   "scopes" : [ ],
   "publishedPortals" : [ ],
   "creationDate" : "2020-09-02 08:39:11 GMT",
-  "lastModified" : "2020-09-02 08:41:05 GMT",
+  "lastModified" : "2020-09-02 09:02:56 GMT",
   "systemVersion" : 1,
   "id" : "d5a80369-b0c3-4350-a012-ffee32cca004"
 }

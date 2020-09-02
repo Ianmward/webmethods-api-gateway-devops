@@ -29,6 +29,12 @@
       "order" : "0"
     } ],
     "stageKey" : "transport"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "7bf2360e-4760-484e-8118-5635978724d9",
+      "order" : "0"
+    } ],
+    "stageKey" : "responseProcessing"
   } ],
   "policyScope" : "SERVICE",
   "systemPolicy" : false,
